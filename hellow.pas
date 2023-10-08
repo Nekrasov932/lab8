@@ -1,8 +1,7 @@
 ﻿##
-var a := ReadInteger('Сколько времени?');
-case a of 
-  4..10: print('Добрый день, мир!'); 
-  11..16:print ('Добрый вечер, мир!');
-  17..22: print('Добрый вечер, мир!');
-  else print('Доброй ночи, мир!');
-end;
+println('choose your language: Русский(1) English(2) franch(3)');
+var a := readinteger;
+assert(a in 1..3);
+if a = 1 then print('Здравствуйте!');
+if a = 2 then print('Hellow!');
+if a = 3 then print('salut!');
